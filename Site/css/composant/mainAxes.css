@@ -1,0 +1,27 @@
+@media only screen and (max-width: 480px){
+
+    main{
+        background-color:rgb(178, 178, 178);
+        color: rgb(68, 137, 141);
+        font-family: 'Work Sans', sans-serif;
+        
+    }
+    h1{
+            font-size: 300px;
+        }
+}
+@media (min-width:481px){
+    main{
+        background-color:rgb(178, 178, 178);
+        color: rgb(68, 137, 141);
+        font-family: 'Work Sans', sans-serif;
+        
+    }
+    h1{
+        font-size: 75px;
+    }
+}
+
+    
+    
+     

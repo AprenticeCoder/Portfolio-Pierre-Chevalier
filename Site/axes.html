@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/axes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <style>
+      nav:hover {
+        animation: secousse 0.2s;
+        animation-iteration-count: infinite;
+      }
+      .fw{
+        animation: secousse 0.7s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes secousse {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+      </style>
+      
+  </head>
+
+<body>
+    
+    <header>
+      <section><h1 class="titre">Mon Portfolio</h1>
+              <img class="pfp" src="img/pfp.png" alt=""></section>
+        
+      <nav> 
+        <a href="http://127.0.0.1:5500/Site/index.html">Acceuil</a>
+        <a href="http://127.0.0.1:5500/Site/axes.html">Axes</a>
+      </nav> 
+
+    </header>
+
+    <main>
+      <style>
+        div {
+          width: auto;
+          background-color: red;
+          animation-name: epilepsie;
+          animation-duration: 10s;
+          animation-iteration-count: infinite;
+          animation-delay: 4s;
+        }
+        
+        @keyframes epilepsie {
+          0%   {background-color: rgb(255, 0, 0);}
+          10%  {background-color: rgb(204, 109, 26);}
+          20%  {background-color: rgb(238, 234, 5);}
+          30%  {background-color: rgb(137, 238, 5);}
+          40%  {background-color: rgb(5, 238, 40);}
+          50%  {background-color: rgb(5, 238, 222);}
+          60%  {background-color: rgb(5, 137, 238);}
+          70%  {background-color: rgb(9, 5, 238);}
+          80%  {background-color: rgb(141, 5, 238);}
+          90%  {background-color: rgb(238, 5, 211);}
+          100% {background-color: rgb(255, 0, 0);}
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h1 class="fw">Flash Warning</h1>
+        
+        <div class="row justify-content-start">
+      <div class="col-md-5 bordure">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere pariatur accusantium asperiores exercitationem itaque, rem, earum praesentium enim excepturi numquam omnis, quia reiciendis! Laborum, assumenda. Perspiciatis perferendis excepturi cumque facilis?</div>
+      <div class="col-md-5 bordure">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere pariatur accusantium asperiores exercitationem itaque, rem, earum praesentium enim excepturi numquam omnis, quia reiciendis! Laborum, assumenda. Perspiciatis perferendis excepturi cumque facilis?</div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-md-5 bordure">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit libero quisquam iure voluptate corporis minus? Corporis esse magni eum, placeat nostrum quod impedit soluta non corrupti, repellat quasi voluptatem libero.</div>
+          <div class="col-md-5 bordure"><img src="img/coding.png" alt=""></div>
+        </div>
+    </main>
+
+    <footer>
+      <a class="linkedIn" href="https://www.linkedin.com/in/pierre-chevalier-0624ab24b/">Mon LinkedIn</a>
+      <p class="adresse" >IIM: 47 Bd de Pesaro, 92000 Nanterre</p>
+    </footer>
+   
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+
+</html>

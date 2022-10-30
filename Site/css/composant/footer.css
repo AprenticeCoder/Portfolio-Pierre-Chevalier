@@ -1,0 +1,53 @@
+@media only screen and (max-width:480px){
+    
+    footer{
+        background-color: rgb(60, 64, 72);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: auto 20%;
+    }
+    .adresse{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: whitesmoke;
+        width: 50%;
+    }
+
+    .linkedIn{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 50%;
+    }
+
+    .linkedIn:hover{
+        color: rgb(0, 171, 179);
+    }
+}
+
+@media only screen and (max-width:1920px){
+    
+    footer{
+        background-color: rgb(60, 64, 72);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: auto 20%;
+    }
+    .adresse{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: whitesmoke;
+        width: 50%;
+    }
+
+    .linkedIn{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 50%;
+    }
+
+    .linkedIn:hover{
+        color: rgb(0, 171, 179);
+    }
+}

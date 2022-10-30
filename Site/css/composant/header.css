@@ -1,0 +1,83 @@
+@media (min-width:481px){
+  header{background-color: rgb(60, 64, 72);
+    width: auto;
+  }
+     
+  .pfp{
+    border-radius: 50%;
+    width: 20%;
+    position: relative;
+    animation-name: rebond;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-direction: reverse;  
+    animation-iteration-count: infinite;
+  }
+  @keyframes rebond {
+    0%      {left:0px; top:0px}
+    19%     {left:35%; top:0px}
+    35%     {left:0px; top:0px}
+    51%     {left:55%; top:0px}
+    67%     {left:0px; top:0px}
+    84%     {left:75%; top:0px}
+    100%    {left:0px; top:0px}
+  }
+  a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+  }
+  
+  a:hover{
+    color: rgb(60, 64, 72);
+ 
+  }
+
+  
+  
+  nav{
+    font-size: xx-large;
+    background-color: rgb(0, 171, 179);
+  }
+  
+}
+
+@media only screen and (max-width:480px){
+  header{
+    background-color: rgb(60, 64, 72);
+    width: auto;
+  }
+  .pfp{
+    border-radius: 50%;
+    width: 10%;
+    position: relative;
+    animation-name: rebond;
+    animation-duration: 5s;
+    animation-direction: reverse;  
+    animation-iteration-count: infinite;
+  }
+  @keyframes rebond {
+    0%      {left:0px; top:0px}
+    19%     {left:35%; top:0px}
+    35%     {left:0px; top:0px}
+    51%     {left:55%; top:0px}
+    67%     {left:0px; top:0px}
+    84%     {left:75%; top:0px}
+    100%    {left:0px; top:0px}
+  }
+  
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 10px;
+}
+
+a:hover{
+  color: rgb(60, 64, 72);
+
+}
+
+nav{
+  background-color: rgb(0, 171, 179);
+}
